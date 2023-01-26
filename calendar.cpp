@@ -56,8 +56,8 @@ void displayCalendar(int month, int year) {
 
 int main() {
     int month, year;
-    cout &#8203;`oaicite:{"index":0,"invalid_reason":"Malformed citation << \"Enter the month (1-12): \";\n    cin >>"}`&#8203; month;
-    cout &#8203;`oaicite:{"index":1,"invalid_reason":"Malformed citation << \"Enter the year: \";\n    cin >>"}`&#8203; year;
+    cout<<"Input month and year in number"<<endl;
+    cin>>month>>year;
     displayCalendar(month, year);
     return 0;
 }
